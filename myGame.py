@@ -1,6 +1,9 @@
 import textgamelib as lib
+import time
 
 lib.clearConsole()
+
+#Challenge 1 ----------------------------
 
 lib.printDivider("-",10)
 print("Jabari stands on the slippery deck of the pool.\nIn front of him stands a tall diving board.\nTo his left, three children his age are playing together in the water.\nHis dad stands behind him, smiling encouragingly.\nWhat will he do?")
@@ -31,7 +34,7 @@ while chooseAgain == "True":
         actionCounter == 0
     elif "forward" in jabariAction:
         lib.printDivider("-",10)
-        print("Jabari awkwardly climbs on top of the diving board, and decides to take a leap of faith. \nEND.")
+        print("Jabari awkwardly climbs on top of the diving board, and decides to take a leap of faith.")
         lib.printDivider("-",10)
         actionCounter == 0
         chooseAgain = "False"
@@ -44,3 +47,7 @@ while chooseAgain == "True":
         lib.printDivider("-",10)
         print("I don't recognize those words,\nTry again.")
         lib.printDivider("-",10)
+
+#----------------------------------------
+
+#Challenge 2 ----------------------------
