@@ -13,13 +13,27 @@ import os
 #result: output to the terminal
 #return value: none
 def printFrog():
-    print("            _   _")
-    print("           (.)_(.)")
-    print("        _ (   _   ) _")
-    print("       / \/`-----'\/ \\")
-    print("     __\ ( (     ) ) /__")
-    print("     )   /\ \._./ /\   (")
-    print("      )_/ /|\   /|\ \_(")
+    frog1 = ("            _   _")
+    frog2 = ("           (.)_(.)")
+    frog3 = ("        _ (   _   ) _")
+    frog4 = ("       / \/`-----'\/ \\")
+    frog5 = ("     __\ ( (     ) ) /__")
+    frog6 = ("     )   /\ \._./ /\   (")
+    frog7 = ("      )_/ /|\   /|\ \_(")
+    line1 = termcolor.colored(frog1, "green")
+    line2 = termcolor.colored(frog2, "green")
+    line3 = termcolor.colored(frog3, "green")
+    line4 = termcolor.colored(frog4, "green")
+    line5 = termcolor.colored(frog5, "green")
+    line6 = termcolor.colored(frog6, "green")
+    line7 = termcolor.colored(frog7, "green")
+    print(line1)
+    print(line2)
+    print(line3)
+    print(line4)
+    print(line5)
+    print(line6)
+    print(line7)
 
 ##################################################
 #Andrew Young
@@ -204,12 +218,12 @@ def printDivider(symbol, amount):
 #pre conditions:time and sys must be imported.
 #result: The chosen message outputs to the terminal.
 #return value: none 
-def typewrite(y):
+def typewrite(y,z):
     for x in y:
         sys.stdout.write(x)
         sys.stdout.flush()
         #To change the delay change 0.10
-        time.sleep(0.10)
+        time.sleep(z)
 
 ##################################################
 #G. Wu
