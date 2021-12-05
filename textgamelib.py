@@ -13,27 +13,13 @@ import os
 #result: output to the terminal
 #return value: none
 def printFrog():
-    frog1 = ("            _   _")
-    frog2 = ("           (.)_(.)")
-    frog3 = ("        _ (   _   ) _")
-    frog4 = ("       / \/`-----'\/ \\")
-    frog5 = ("     __\ ( (     ) ) /__")
-    frog6 = ("     )   /\ \._./ /\   (")
-    frog7 = ("      )_/ /|\   /|\ \_(")
-    line1 = termcolor.colored(frog1, "green")
-    line2 = termcolor.colored(frog2, "green")
-    line3 = termcolor.colored(frog3, "green")
-    line4 = termcolor.colored(frog4, "green")
-    line5 = termcolor.colored(frog5, "green")
-    line6 = termcolor.colored(frog6, "green")
-    line7 = termcolor.colored(frog7, "green")
-    print(line1)
-    print(line2)
-    print(line3)
-    print(line4)
-    print(line5)
-    print(line6)
-    print(line7)
+    print(termcolor.colored("            _   _","green"))
+    print(termcolor.colored("           (.)_(.)","green"))
+    print(termcolor.colored("        _ (   _   ) _","green"))
+    print(termcolor.colored("       / \/`-----'\/ \\","green"))
+    print(termcolor.colored("     __\ ( (     ) ) /__","green"))
+    print(termcolor.colored("     )   /\ \._./ /\   (","green"))
+    print(termcolor.colored("      )_/ /|\   /|\ \_(","green"))
 
 ##################################################
 #Andrew Young
